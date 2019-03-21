@@ -49,4 +49,4 @@ bot.on("ready", () => {
     setInterval(changing_status, 3000);
 })
 
-bot.login(config.token);
+bot.login(process.env.BOT_TOKEN);
