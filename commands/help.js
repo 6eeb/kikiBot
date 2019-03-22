@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
     let botembed = new Discord.RichEmbed()
         .setThumbnail(bicon)
         .addField("Default Prefix", `k!`)
-        .addField("Moderation", `**purge:** Deletes any amount of messages 1-100.\n**ban:** Bans a user that you mention.\n**kick:** Kicks a user that you mention.\n**warn:** Warns a user that you mention.\n**votekick:** Votekicks a user.`)
+        .addField("Moderation", `**purge:** Deletes any amount of messages 1-100.\n**ban:** Bans a user that you mention.\n**kick:** Kicks a user that you mention.\n**votekick:** Votekicks a user.`)
         .addBlankField()
         .addField("Fun", `**gay:** Tells you how gay you are.\n**hug:** Hugs someone.\n**kiss:** Kisses someone.\n**cuddle:** Cuddles someone.`)
         .addBlankField()
