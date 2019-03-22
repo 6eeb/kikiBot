@@ -8,7 +8,7 @@ exports.run = async (bot, message, args, ops) => {
 	}
     
     // Check for input
-    if (!args[0]) return message.channel.send('Proper usage: a.poll <question>');
+    if (!args[0]) return message.channel.send('Proper usage: k!poll <question>');
     
     // Create Embed
     const embed = new Discord.RichEmbed()
