@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("Default Prefix", `k!`)
         .addField("Moderation", `**purge:** Deletes any amount of messages 1-100.\n**ban:** Bans a user that you mention.\n**kick:** Kicks a user that you mention.\n**votekick:** Votekicks a user.`)
         .addBlankField()
-        .addField("Fun", `**gay:** Tells you how gay you are.\n**hug:** Hugs someone.\n**kiss:** Kisses someone.\n**cuddle:** Cuddles someone.`)
+        .addField("Fun", `**gay:** Tells you how gay you are.\n**hug:** Hugs someone.\n**kiss:** Kisses someone.\n**cuddle:** Cuddles someone.\n**slap:** Slaps someone.`)
         .addBlankField()
         .addField("General", `**userinfo:** Shows info about a user.\n**serverinfo:** Shows info about the server\n**help:** Shows this message.\n**quiz:** Asks you a question.\n`)
         .setDescription(`[** | Support Server | **](https://discord.gg/jSfk822)`, `[** | GitHub | **](https://github.com/RyanFizz/kikiBot)`)
