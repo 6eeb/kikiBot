@@ -20,3 +20,7 @@ exports.run = (client, message, args, sql, Discord) =>{
         })
     }
 }
+
+module.exports.help = {
+    name: "rank"
+}
