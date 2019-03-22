@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("Fun", `**gay:** Tells you how gay you are.\n**hug:** Hugs someone.\n**kiss:** Kisses someone.\n**cuddle:** Cuddles someone.`)
         .addBlankField()
         .addField("General", `**userinfo:** Shows info about a user.\n**serverinfo:** Shows info about the server\n**help:** Shows this message.`)
-        .setDescription(`[**Support Server**](https://discord.gg/jSfk822)`)
+        .setDescription(`[** | Support Server | **](https://discord.gg/jSfk822)`, `[** | Support Server | **](https://discord.gg/jSfk822)`)
         .setFooter(`Requested by : ${message.author.username}#${message.author.discriminator}`, message.author.displayAvatarURL)
         .setColor(0xff4242);
 
