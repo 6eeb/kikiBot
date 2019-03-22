@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args) => {
         .addBlankField()
         .addField("Fun", `**gay:** Tells you how gay you are.\n**hug:** Hugs someone.\n**kiss:** Kisses someone.\n**cuddle:** Cuddles someone.`)
         .addBlankField()
-        .addField("General", `**userinfo:** Shows info about a user.\n**serverinfo:** Shows info about the server\n**help:** Shows this message.\n**quiz:** Asks you a question.\n`)
+        .addField("General", `**userinfo:** Shows info about a user.\n**serverinfo:** Shows info about the server\n**help:** Shows this message.`)
         .setDescription(`[** | Support Server | **](https://discord.gg/jSfk822)`, `[** | GitHub | **](https://github.com/RyanFizz/kikiBot)`)
         .setFooter(`Requested by : ${message.author.username}#${message.author.discriminator}`, message.author.displayAvatarURL)
         .setColor(0xff4242);
