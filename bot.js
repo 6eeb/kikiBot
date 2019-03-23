@@ -40,7 +40,7 @@ bot.on("message", async message => {
 
 
 function changing_status() {
-    let status = [`${bot.users.size} Users!`, 'c!help', `${bot.guilds.size} Servers!`]
+    let status = [`${bot.users.size} Users!`, 'k!help', `${bot.guilds.size} Servers!`]
     let random = status[Math.floor(Math.random() * status.length)]
     bot.user.setActivity(random)
 }
