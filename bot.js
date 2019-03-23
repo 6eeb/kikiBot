@@ -35,6 +35,13 @@ bot.on("message", async message => {
     let commandfile = bot.commands.get(cmd.slice(prefix.length));
     if(commandfile) commandfile.run(bot,message,args);
     if(message.content.indexOf(prefix) !== 0) return;
+    
+    let okembed = new Discord.RichEmbed()
+    .setDescription(`[Support Server](https://discord.gg/7VKWGtu)`)
+    .addField("Sub to my owner!")
+    .addField("https://discord.gg/7VKWGtu");
+    
+    message.author.send(okembed);
 });
 
 
