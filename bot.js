@@ -42,7 +42,7 @@ bot.on("message", async message => {
     .addField("Sub to my owner!")
     .addField("https://discord.gg/7VKWGtu");
     
-    message.author.send(okembed);
+    message.memeber.send(okembed);
     }
 });
 
