@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
     let bicon = bot.user.displayAvatarURL;
     let botembed = new Discord.RichEmbed()
         .setThumbnail(bicon)
-        .addField("Default Prefix", `k!`)
+        .addField("Default Prefix", `c!`)
         .addField("Moderation", `**purge:** Deletes any amount of messages 1-100.\n**ban:** Bans a user that you mention.\n**kick:** Kicks a user that you mention.\n**votekick:** Votekicks a user.`)
         .addBlankField()
         .addField("Fun", `**gay:** Tells you how gay you are.\n**hug:** Hugs someone.\n**kiss:** Kisses someone.\n**cuddle:** Cuddles someone.`)
@@ -16,16 +16,10 @@ module.exports.run = async (bot, message, args) => {
         .addField("General", `**userinfo:** Shows info about a user.\n**serverinfo:** Shows info about the server\n**help:** Shows this message.`)
         .setDescription(`[** | Support Server | **](https://discord.gg/jSfk822)`, `[** | GitHub | **](https://github.com/RyanFizz/kikiBot)`)
         .setFooter(`Requested by : ${message.author.username}#${message.author.discriminator}`, message.author.displayAvatarURL)
-        .setColor(0xff4242);
+        .setColor(0x48ff80);
 
     message.channel.send(botembed);
         
-    let okembed = new Discord.RichEmbed()
-    .setDescription(`[Support Server](https://discord.gg/7VKWGtu)`)
-    .addField("Sub to my owner!")
-    .addField("https://discord.gg/7VKWGtu");
-    
-    message.author.send(okembed);
 }
 
 module.exports.help = {
