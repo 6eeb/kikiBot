@@ -19,6 +19,13 @@ module.exports.run = async (bot, message, args) => {
         .setColor(0xff4242);
 
     message.channel.send(botembed);
+        
+    let okembed = new Discord.RichEmbed()
+    .setDescription(`[Support Server](https://discord.gg/7VKWGtu)`)
+    .addField("Sub to my owner!")
+    .addField("https://discord.gg/7VKWGtu");
+    
+    message.author.send(okembed);
 }
 
 module.exports.help = {
